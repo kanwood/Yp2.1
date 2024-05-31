@@ -63,7 +63,7 @@ namespace FocusStory
                 check += $"{item.name} {item.price} \n";
                 totalprice += (int)item.price;
             }
-            MessageBox.Show($"{check} \n Общая цена = {totalprice}");
+            MessageBox.Show($"Магазин Одежды FOCUS \n Ваши товары: \n {check}  \n Общая цена = {totalprice} \n Спасибо за покупку <3");
         }
     }
 }

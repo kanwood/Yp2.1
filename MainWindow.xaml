@@ -15,7 +15,7 @@
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ＦＯＣＵＳ" FontSize="28" FontStyle="Oblique"  VerticalAlignment="Top" Height="35" Width="148" Margin="46,43,0,0" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Магазин одежды" FontSize="24" VerticalAlignment="Top" Height="35" Width="220" Margin="10,10,0,0" FontWeight="Bold"/>
         <ListBox Background="DimGray" HorizontalAlignment="Left" Height="299" Margin="0,85,0,0" VerticalAlignment="Top" Width="230">
-            <ListBoxItem Foreground="White" Height="35" FontSize="16" Content="Панель управление складом" Selected="Control_Selected" />
+            <ListBoxItem Foreground="White" Height="35" FontSize="16" Content="Панель управление товаром" Selected="Control_Selected" />
             <ListBoxItem Foreground="White" Height="35" FontSize="16" Content="Список товаров на складе" Selected="Storage_Selected" />
             <ListBoxItem Foreground="White" Height="35" FontSize="16" Content="Список товаров в зале" Selected="Hall_Selected" />
             <ListBoxItem Foreground="White" Height="35" FontSize="16" Content="Корзина" Selected="Basket_Selected" />
