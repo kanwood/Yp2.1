@@ -1,0 +1,29 @@
+﻿<Window x:Class="FocusStory.AddItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FocusStory"
+        mc:Ignorable="d"
+        Title="AddItem" Height="400" Width="700">
+    <Grid>
+        <Image Source="/fon.png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="47" Margin="220,30,0,0" TextWrapping="Wrap" Name="BarcodeTB" Text="{Binding barcode}" VerticalAlignment="Top" Width="300"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="47" Margin="220,81,0,0" TextWrapping="Wrap" Name="NameTB" Text="{Binding name}" VerticalAlignment="Top" Width="300"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="47" Margin="220,132,0,0" TextWrapping="Wrap" Name="PriceTB" Text="{Binding price}" VerticalAlignment="Top" Width="300"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="47" Margin="220,183,0,0" TextWrapping="Wrap" Name="ManufTB" Text="{Binding manuf}" VerticalAlignment="Top" Width="300"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="42" Margin="220,234,0,0" TextWrapping="Wrap" Name="TypeTB" Text="{Binding type}" VerticalAlignment="Top" Width="300"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Штрихкод" HorizontalAlignment="Left" Height="47" Margin="17,30,0,0" VerticalAlignment="Top" Width="198"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Наименование" HorizontalAlignment="Left" Height="47" Margin="17,81,0,0" VerticalAlignment="Top" Width="198"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Цена" HorizontalAlignment="Left" Height="47" Margin="17,132,0,0" VerticalAlignment="Top" Width="198"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Производитель" HorizontalAlignment="Left" Height="47" Margin="17,183,0,0" VerticalAlignment="Top" Width="198"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Тип" HorizontalAlignment="Left" Height="42" Margin="17,234,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Background="White" FontSize="18" FontWeight="Bold" Content="Сохранить" Name="SaveCh" Click="SaveCh_Click" HorizontalAlignment="Left" Margin="550,150,0,0" VerticalAlignment="Top" Height="55" Width="140"/>
+        <Button Background="White" FontSize="18" FontWeight="Bold" Content="Вернуться" Name="outControl" Click="outControl_Click" HorizontalAlignment="Left" Margin="538,319,0,0" VerticalAlignment="Top" Height="55" Width="140"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="42" Margin="220,281,0,0" TextWrapping="Wrap" x:Name="PosTB" Text="{Binding place}" VerticalAlignment="Top" Width="300"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Позиция(склад/зал)" HorizontalAlignment="Left" Height="42" Margin="17,281,0,0" VerticalAlignment="Top" Width="198"/>
+        <TextBox HorizontalAlignment="Left" FontSize="18" Height="42" Margin="220,328,0,0" TextWrapping="Wrap" x:Name="AmountTB" Text="{Binding amountItem}" VerticalAlignment="Top" Width="300"/>
+        <Label Background="White" FontSize="18" FontWeight="Bold" Content="Кол-во" HorizontalAlignment="Left" Height="42" Margin="17,328,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>

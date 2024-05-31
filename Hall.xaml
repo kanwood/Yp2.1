@@ -1,0 +1,31 @@
+﻿<Window x:Class="FocusStory.Hall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FocusStory"
+        mc:Ignorable="d"
+        Title="Hall" Height="400" Width="700">
+    <Grid>
+        <Image Source="/fon.png" Stretch="Fill"/>
+        <DataGrid x:Name="DGHall" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding idItem}" Width="50"/>
+                <DataGridTextColumn Header="Штрихкод" Binding="{Binding barcode}" Width="80"/>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding name}" Width="150" />
+                <DataGridTextColumn Header="Цена" Binding="{Binding price}" Width="70" />
+                <DataGridTextColumn Header="Производитель" Binding="{Binding manuf}" Width="*" />
+                <DataGridTextColumn Header="Тип" Binding="{Binding type}" Width="*" />
+                <DataGridTextColumn Header="Кол-во" Binding="{Binding amountItem}" Width="*" />
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="В корзину" Name="inbasket" Click="inbasket_Click" ></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Вернуться" Click="outmenu" HorizontalAlignment="Left" Margin="549,336,0,0" VerticalAlignment="Top" Height="38" Width="141"/>
+    </Grid>
+</Window>
