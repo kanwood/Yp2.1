@@ -29,31 +29,31 @@
 В базе данных имеется 2 таблици, в которой содержится колонка с названием **Item** и колонка **Basket**. В этой таблице записаны все существующие услуги в системе FocusStory. <br/>
 В дальнейшем, все записи отсюда выгружаются в приложение и названия услуг используются для их отображения.
 
-# Скриншоты приложения:
+ Скриншоты приложения:
 
 ![Главная страница](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/MainWindow.png)
-# Главная страница
+ Главная страница
 </br> </br> </br>
 
 ![Окно панели управления товаром](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/PanelControl.png)
-# Окно панели управления товаром </br>
+ Окно панели управления товаром </br>
 </br> </br> </br>
 
 ![Окно добавления товара](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/AddItem.png)
-# Окно добавления товара </br>
+ Окно добавления товара </br>
 </br> </br> </br>
 
 ![Окно списка товаров, хранящихся на складе](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/Storage.png)
-# Окно списка товаров, хранящихся на складе </br>
+ Окно списка товаров, хранящихся на складе </br>
 </br> </br> </br>
 
 ![Окно списка товаров, хранящихся в зале](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/Hall.png)
-# Окно списка товаров, хранящихся в зале </br>
+ Окно списка товаров, хранящихся в зале </br>
 </br> </br> </br>
 
 ![Окно корзины](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/Basket.png)
-# Окно корзины </br>
+ Окно корзины </br>
 </br> </br> </br>
 
 ![Окно чека](https://github.com/kanwood/Yp2.1/blob/main/ScreensForRepository/Check.png)
-# Распечатка чека </br>
+ Распечатка чека </br>
