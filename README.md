@@ -31,20 +31,20 @@
 # Скриншоты приложения:
 
 ![Главная страница](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/MainMenu.png)
-## Главная страница
+# Главная страница
 </br> </br> </br>
 
 ![Страница ввода номера телефона](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterPhonePage.png)
-## Страница ввода номера телефона </br>
+# Страница ввода номера телефона </br>
 </br> </br> </br>
 
 ![Окно ввода суммы денег](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterMoneyPage.png)
-## Окно ввода суммы денег </br>
+# Окно ввода суммы денег </br>
 </br> </br> </br>
 
 ![Страница поиска](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage.png)
-## Страница поиска </br>
+# Страница поиска </br>
 </br> </br> </br>
 
 ![Страница поиска с визуализацией работы](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage(Visualization%20of%20work).png)
-## Визуализация работы поиска </br>
+ Визуализация работы поиска </br>
